@@ -1,0 +1,85 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Press Start 2P', cursive; /* Tipografía retro */
+  background: linear-gradient(145deg, #232526, #414345);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+}
+
+header {
+  padding-bottom: 20px;
+  border-bottom: 2px solid #fff;
+}
+
+.title {
+  font-size: 3em;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #ff6347;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  color: #ffcc00;
+}
+
+.game-selection {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.game-button {
+  font-size: 1.2em;
+  padding: 20px 40px;
+  background-color: #222;
+  color: #ffcc00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.game-button:hover {
+  background-color: #ff6347;
+  transform: scale(1.1);
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 0.9em;
+  color: #fff;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
+
+/* Fondo animado para el juego */
+.game-container {
+  background-color: #000;
+  border-radius: 10px;
+  margin-top: 50px;
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.3);
+}
+
+/* Efecto retro en los botones */
+button {
+  box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.4);
+}
